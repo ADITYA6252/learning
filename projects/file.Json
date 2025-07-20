@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "Name": "Uday",
+      "E-mail": "uday12@gmail.com",
+      "Phone no.": 8872567265
+    },
+    {
+      "Name": "Krish",
+      "E-mail": "kr12@gmail.com",
+      "Phone no.": 9876354736
+    },
+    {
+      "Name": "Rohit",
+      "E-mail": "rohit01@gmail.com",
+      "Phone no.": 8874279265
+    },
+    {
+      "Name": "Virat",
+      "E-mail": "virat18@gmail.com",
+      "Phone no.": 9872466715
+    },
+    {
+      "Name": "Rahul",
+      "E-mail": "rahul20@gmail.com",
+      "Phone no.": 8992657157
+    },
+    {
+      "Name": "Abhishek",
+      "E-mail": "abhi32@gmail.com",
+      "Phone no.": 7892551718
+    },
+    {
+      "Name": "Amit",
+      "E-mail": "amit45@gmail.com",
+      "Phone no.": 6289915838
+    },
+    {
+      "Name": "Arjun",
+      "E-mail": "arjun@gmail.com",
+      "Phone no.": 9757826881
+    },
+    {
+      "Name": "Hardik",
+      "E-mail": "hardik@gmail.com",
+      "Phone no.": 8858992537
+    },
+    {
+      "Name": "Nihal",
+      "E-mail": "nihal@gmail.com",
+      "Phone no.": 6283891793
+    },
+    {
+      "Name": "Ishaan",
+      "E-mail": "ishaan@gmail.com",
+      "Phone no.": 8738868292
+    }
+  ]
+}
