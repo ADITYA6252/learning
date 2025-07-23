@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="file.css" />
   </head>
   <body>
+  
     <header>
       <nav>
         <ul>
@@ -18,143 +19,23 @@
       </nav>
     </header>
 
-    <form id="Form">
-      <input type="text" id="name" placeholder="Name" required />
-      <input type="email" id="email" placeholder="Email" required />
-      <input type="text" id="phone" placeholder="Phone" required />
-      <button type="submit" class="b">Submit</button>
-    </form>
+   <table id="table">
+              <thead>
+      <tr>
+        <th id="page">Sr No.</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+            <tbody id="records"></tbody>
+       </table>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Phone</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody id="Body">
-        <tr>
-          <td>Uday</td>
-          <td>uday12@gmail.com</td>
-          <td>8872567265</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Krish</td>
-          <td>kr12@gmail.com</td>
-          <td>9876354736</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
 
-        <tr>
-          <td>Rohit</td>
-          <td>rohit01@gmail.com</td>
-          <td>8874279265</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Virat</td>
-          <td>virat18@gmail.com</td>
-          <td>9872466715</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Rahul</td>
-          <td>rahul20@gmail.com</td>
-          <td>8992657157</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Abhishek</td>
-          <td>abhi32@gmail.com</td>
-          <td>7892551718</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Amit</td>
-          <td>amit45@gmail.com</td>
-          <td>6289915838</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Arjun</td>
-          <td>arjun@gmail.com</td>
-          <td>9757826881</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Hardik</td>
-          <td>hardik@gmail.com</td>
-          <td>8858992537</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Nihal</td>
-          <td>nihal@gmail.com</td>
-          <td>6283891793</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <td>Ishaan</td>
-          <td>ishaan@gmail.com</td>
-          <td>8738868292</td>
-          <td>
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div  id="pagination"></div>
 
     <script src="script.js"></script>
-
-    <div class="pagination">
-      <a href=""><</a>
-      <a href="">1</a>
-      <a href="">2</a>
-      <a href="">3</a>
-      <a href="">4</a>
-      <a href="">></a>
-    </div>
 
     <footer>
       <h5>COPYRIGHT @ 2025</h5>
